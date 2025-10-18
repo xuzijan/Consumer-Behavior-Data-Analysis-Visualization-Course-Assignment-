@@ -1,0 +1,14 @@
+# 仪表盘参数配置示例
+filters:
+  gender: ['Male', 'Female']
+  age_range: [18, 70]
+  category: ['Clothing', 'Footwear', 'Accessories', 'Outerwear']
+  season: ['Spring', 'Summer', 'Fall', 'Winter']
+trend:
+  default_season: '全部'
+cluster:
+  n_clusters: 3
+recommend:
+  min_edge_weight: 2
+highlight:
+  show_profile_count: 3
